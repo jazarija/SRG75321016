@@ -1,3 +1,8 @@
+/* 
+   Compile as
+
+   gcc compGraph2graph6.c -O2 -lgsl -lgslcblas -o compGraph2graph6
+*/   
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>

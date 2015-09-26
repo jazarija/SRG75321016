@@ -62,7 +62,7 @@ def findConfigurations(edges_to_fix):
                 L2 = L3
         
         triangles += [cur_t]            
-        L = [X for X in L2 if isInterlaced(X)]  
+        L = [X for X in L2 if isInterlacedFast(X)]  
         print 'Currently dealing with', len(L), 'graphs', set( G.spectrum().count(2) for G in L)
     return L
 
