@@ -1,4 +1,4 @@
-load genericSRG.sage
+load ../../genericSRG.sage
 from itertools import product, combinations
 from multiprocessing import Pool
 
